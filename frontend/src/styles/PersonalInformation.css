@@ -1,0 +1,58 @@
+/* PersonalInformation.css */
+
+.personal-info-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.personal-info-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.personal-info-container label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.personal-info-container input[type="text"],
+.personal-info-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.personal-info-container select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'6'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M0%200l6%206%206-6H0z'%20fill%3D'%23aaa'%2F%3E%3C%2Fsvg%3E"),
+        linear-gradient(to bottom, #ffffff, #ffffff);
+    background-repeat: no-repeat, repeat;
+    background-position: right 10px top 50%, 0 0;
+    background-size: 12px auto, 100%;
+}
+
+.personal-info-container select:focus {
+    border-color: #007bff;
+}
+
+.personal-info-container .next-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.personal-info-container .next-button:hover {
+    background-color: #0056b3;
+}

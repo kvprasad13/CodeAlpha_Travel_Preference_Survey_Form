@@ -1,0 +1,36 @@
+/* Example CSS styles for the TravelPlanning page */
+.travel-planning-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.travel-planning-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.travel-planning-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.previous-button .next-button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+ .previous-button-link:hover .next-button-link:hover{
+    background-color: #0056b3;
+}
+/* Other styles... */

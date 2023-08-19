@@ -1,0 +1,51 @@
+/* TravelHabits.css */
+
+.travel-habits-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.travel-habits-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.travel-habits-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.travel-habits-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.travel-habits-checkbox-group {
+    margin-top: 10px;
+}
+
+.travel-habits-checkbox {
+    margin-right: 8px;
+}
+
+.travel-habits-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.travel-habits-button:last-child {
+    margin-right: 0;
+}
